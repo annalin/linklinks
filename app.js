@@ -41,7 +41,7 @@ app.get('/links/all', getLinks);
 // Create a new link
 function createLink(obj) {
   var link = new Link(obj);
-  return link.save()
+  return link.save();
 }
 
 // Retrieve all links
